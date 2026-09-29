@@ -2,11 +2,18 @@
 import gsap from 'gsap'
 
 import { ScrollTrigger } from 'gsap/all'
+import NavBar from './sections/NavBar'
+import Hero from './sections/Hero'
+import ComingSoon from './sections/ComingSoon'
 
 gsap.registerPlugin(ScrollTrigger)
 
 export default function App() {
   return (
-    <div className=' text-red-50 text-6xl' >App</div>
+ <main>
+ <NavBar/>
+ <Hero/>
+
+ </main>
   )
 }
