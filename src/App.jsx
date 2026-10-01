@@ -6,6 +6,9 @@ import NavBar from './sections/NavBar'
 import Hero from './sections/Hero'
 import FirstVideo from './sections/FirstVideo'
 import Jason from './sections/Jason'
+import SecondVideo from './sections/SecondVideo'
+import Lucia from './sections/Lucia'
+import PostCard from './sections/PostCard'
 
 
 
@@ -18,6 +21,11 @@ export default function App() {
  <Hero/>
  <FirstVideo/>
  <Jason/>
+
+ <SecondVideo/>
+ <Lucia/>
+
+ <PostCard/>
 
  </main>
   )
