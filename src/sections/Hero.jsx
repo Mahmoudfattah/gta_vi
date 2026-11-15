@@ -70,24 +70,24 @@ export default function Hero() {
       <section className="hero-section ">
         <div className="size-full mask-wrapper ">
           <img
-            src="/public/images/hero-bg.webp"
+            src="/images/hero-bg.webp"
             alt="background image"
             className="scale-out"
           />
           <img
-            src="/public/images/hero-text.webp"
+            src="/images/hero-text.webp"
             alt="hero-logo"
             className="title-logo fade-out"
           />
           <img
-            src="/public/images/watch-trailer.png"
+            src="/images/watch-trailer.png"
             alt="trailer"
             className="trailer-logo fade-out"
           />
 
           <div className="play-img fade-out">
             <img
-              src="/public/images/play.png"
+              src="/images/play.png"
               alt="play"
               className="w-7 ml-1"
             />
@@ -96,14 +96,14 @@ export default function Hero() {
 
         <div>
           <img
-            src="/public/images/big-hero-text.svg"
+            src="/images/big-hero-text.svg"
             alt="hero-logo"
             className="size-full object-cover mask-logo"
           />
         </div>
         <div className="fake-logo-wrapper">
           <img
-            src="/public/images/big-hero-text.svg"
+            src="/images/big-hero-text.svg"
             alt="hero-logo"
             className="overlay-logo"
           />
